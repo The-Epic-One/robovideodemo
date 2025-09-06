@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>robot demo</title>
+    <style>
+      /* Dark base background */
+      body {
+        background-color: #12142b;
+        color: white;
+        font-family: Consolas, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        padding: 20px;
+        font-size: 2.5em;
+        background: #1c1f3a;
+        color: #27f2d7; /* turquoise */
+      }
+
+      .intro {
+        margin: 20px auto;
+        width: 60%;
+        font-size: 1.2em;
+        color: #4ae7ff; /* light blue */
+      }
+
+      .video-card {
+        margin: 30px auto;
+        padding: 20px;
+        background: #1c1f3a; /* slightly lighter dark blue */
+        border-radius: 12px;
+        width: 70%;
+      }
+
+      video {
+        width: 100%;
+        border-radius: 12px;
+      }
+
+      .gear {
+        opacity: 0.15;
+        position: absolute;
+        top: 110px;
+        left: 30px;
+        z-index: -1;
+        width: 300px; 
+        height: auto;
+      }
+
+      .pencil {
+        opacity: 0.15;
+        position: absolute;
+        top: 600px;
+        right: 30px;
+        z-index: -1;
+        width: 200px; 
+        height: auto;
+      }
+
+      footer {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #e0c7ff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>⭐ video demonstration ⭐</header>
+
+    <img class="gear" src="gear.svg">
+    <img class="pencil" src="pencil.svg">
+
+    <div class="intro">
+      <p>
+        our robot is very cool. really very cool. u cannot deny dat. if u do youll have to face SEVERE consequences im afraid. yeh. here’s a quick demonstration:
+      </p>
+    </div>
+
+    <div class="video-card">
+      <video src="C:\The_Epic_One\avm\ITS TIME FOR THE INTRO.mp4" controls></video>
+    </div>
+
+    <footer>made by Team Innervation
+    </footer>
+  </body>
+</html>
